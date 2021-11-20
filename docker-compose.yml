@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  trainspotter:
+    image: enocon/trainspotter
+    container_name: trainspotter
+    restart: "no"
+    environment:
+      CRON_TIME: ${CRON_TIME}
+      MAIL_HOST: ${MAIL_HOST}
+      MAIL_USER: ${MAIL_USER}
+      MAIL_PASS: ${MAIL_PASS}
