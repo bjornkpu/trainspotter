@@ -1,7 +1,5 @@
 # Trainspotter
 
-# Trainspotter
-
 My morning train sometimes gets canceled. I'm not going to stat checking the arrivaltimes every morning, so an automated system can do that for me.
 
 
